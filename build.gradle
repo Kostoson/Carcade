@@ -6,6 +6,21 @@ plugins {
 group 'org.example'
 version '1.0-SNAPSHOT'
 
+allure {
+    report { //секция репорта
+        version.set("2.21.0") // https://github.com/allure-framework/allure2
+    }
+    adapter { // отвечает за появление директории build/allure-results
+        aspectjWeaver.set(true) //обработка аннотации @Step
+        frameworks {
+            junit5 { //название фреймворка
+                adapterVersion.set("2.21.0") //https://github.com/allure-framework/allure-java
+            }
+        }
+    }
+
+}
+
 repositories {
     mavenCentral()
 }
