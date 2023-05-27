@@ -14,7 +14,8 @@ public class CarcadeLandingTest {
     @Test
     @Tags({
             @Tag("WEB"),
-            @Tag("SMOKED")
+            @Tag("SMOKED"),
+            @Tag("remote")
     })
     @DisplayName("Проверка фильтра каталога")
     void catalogFilterTest() {
@@ -27,7 +28,8 @@ public class CarcadeLandingTest {
     @Test
     @Tags({
             @Tag("WEB"),
-            @Tag("SMOKED")
+            @Tag("SMOKED"),
+            @Tag("remote")
     })
     @DisplayName("Проверка наличия заголовков страницы 'Лизингополучателям' и 'О каркаде' ")
     void MainHeaderPageIsVisibleTest() {
@@ -38,7 +40,8 @@ public class CarcadeLandingTest {
     @Test
     @Tags({
             @Tag("WEB"),
-            @Tag("SMOKED")
+            @Tag("SMOKED"),
+            @Tag("remote")
     })
     @DisplayName("Проверка, что при нажатии на заголовок страницы 'Лизингополучателям', осуществляется переход на соответствующую страницу")
     void lesseesTabTest() {
@@ -49,7 +52,8 @@ public class CarcadeLandingTest {
     @Test
     @Tags({
             @Tag("WEB"),
-            @Tag("SMOKED")
+            @Tag("SMOKED"),
+            @Tag("remote")
     })
     @DisplayName("Проверка, что при нажатии на заголовок страницы 'О каркаде', осуществляется переход на соответствующую страницу")
     void aboutCarcadeTabTest() {
