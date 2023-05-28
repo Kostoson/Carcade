@@ -85,7 +85,7 @@ clean remote_test
 <img title="Allure Overview" src="media/screens/allureReport.png">
 </p>
 
-### <img src="media/logo/result.svg" title="Результат" width="4%"/> Результат выполнения теста
+### Результат выполнения теста
 
 <p align="center">
 <img title="Test Results in Alure" src="media/screens/ResultTest.png">
