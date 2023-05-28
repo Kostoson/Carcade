@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Selenide.*;
 
-public class CarcadeLandingTest {
+public class CarcadeLandingTest extends TestBase{
     MainPage mainPage = new MainPage();
 
 
