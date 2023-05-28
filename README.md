@@ -64,7 +64,7 @@ clean remote_test
 -DbrowserSize=1920x1080
 ```
 
-### Параметры сборки
+### <img src="media/logo/param.svg" title="Параметры сборки" width="4%"/> 
 
 * <code>REMOTE_DRIVER_URL</code> – адрес удаленного сервера, на котором будут запускаться тесты.
 * <code>BASE_URL</code> – Url, по которому будет открываться тестируемое приложение. По-умолчанию - <code>1920x1080</code>.
@@ -85,7 +85,7 @@ clean remote_test
 <img title="Allure Overview" src="media/screens/allureReport.png">
 </p>
 
-### Результат выполнения теста
+### ### <img src="media/logo/result.svg" title="Результат выполнения теста" width="4%"/>  
 
 <p align="center">
 <img title="Test Results in Alure" src="media/screens/ResultTest.png">
@@ -117,7 +117,7 @@ clean remote_test
 <img width="70%" title="Telegram Notifications" src="media/screens/notification.png">
 </p>
 
-## Видео примера запуска тестов в Selenoid
+## ### ### <img src="media/logo/numer.svg" title="Видео примера запуска тестов в Selenoid" width="4%"/>  
 
 К каждому тесту в отчете прилагается видео прогона.
 <p align="center">
