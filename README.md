@@ -85,7 +85,7 @@ clean remote_test
 <img title="Allure Overview" src="media/screens/allureReport.png">
 </p>
 
-### ### <img src="media/logo/result.svg" title="Результат выполнения теста" width="4%"/>  
+### <img src="media/logo/result.svg" title="Результат выполнения теста" width="4%"/>  
 
 <p align="center">
 <img title="Test Results in Alure" src="media/screens/ResultTest.png">
@@ -117,7 +117,7 @@ clean remote_test
 <img width="70%" title="Telegram Notifications" src="media/screens/notification.png">
 </p>
 
-## ### ### <img src="media/logo/numer.svg" title="Видео примера запуска тестов в Selenoid" width="4%"/>  
+## <img src="media/logo/numer.svg" title="Видео примера запуска тестов в Selenoid" width="4%"/>  
 
 К каждому тесту в отчете прилагается видео прогона.
 <p align="center">
