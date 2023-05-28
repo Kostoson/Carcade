@@ -1,6 +1,7 @@
 package carcadetests.tests;
 
 import carcadetests.pages.MainPage;
+import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
@@ -19,6 +20,7 @@ public class CarcadeLandingTest {
     })
     @DisplayName("Проверка фильтра каталога")
     void catalogFilterTest() {
+
         open("https://www.carcade.com/");
         mainPage.catalogFilterHeader().
                 catalogTabCheck();
