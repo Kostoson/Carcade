@@ -16,7 +16,7 @@ public class TestBase {
 
     @BeforeAll
     static void beforeAll() {
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";//System.getProperty("remote");
+        Configuration.remote = System.getProperty("remote");
         Configuration.baseUrl = System.getProperty("baseUrl");
         Configuration.browserSize = System.getProperty("browserSize");
         String[] browser = System.getProperty("browser").split(":");

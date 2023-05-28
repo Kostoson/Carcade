@@ -20,7 +20,6 @@ public class CarcadeLandingTest {
     })
     @DisplayName("Проверка фильтра каталога")
     void catalogFilterTest() {
-
         open("https://www.carcade.com/");
         mainPage.catalogFilterHeader().
                 catalogTabCheck();
